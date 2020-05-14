@@ -1,0 +1,36 @@
+# merge case a and b
+> init
+<<<
+# add 01
++ test01.txt test01.txt
+> add test01.txt
+<<<
+# add 02
++ test02.txt test02.txt
+> add test02.txt
+<<<
+# commit 01 & 02
+> commit "01 02"
+<<<
+> branch other
+<<<
+# changing 01 for master
++ test01.txt change01.txt
+> add test01.txt
+<<<
+> commit "01 master"
+<<<
+# checkout to other and change 01
+> checkout other
+<<<
++ test02.txt change02.txt
+> add test02.txt
+<<<
+> commit "02 other"
+<<<
+> checkout master
+<<<
+> merge other
+<<<
+= test01.txt change01.txt
+= test02.txt change02.txt

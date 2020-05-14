@@ -1,0 +1,102 @@
+> init
+<<<
+E .gitlet
++ wug.txt wug.txt
++ hello.txt hello.txt
++ bye.txt bye.txt
+> add wug.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+
+=== Untracked Files ===
+bye.txt
+hello.txt
+
+<<<
++ wug.txt notwug.txt
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+wug.txt
+
+=== Untracked Files ===
+bye.txt
+hello.txt
+
+<<<
+> add wug.txt
+<<<
+> rm bye.txt
+No reason to remove the file.
+<<<
+> add bye.txt
+<<<
+> rm bye.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+wug.txt
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+
+=== Untracked Files ===
+bye.txt
+hello.txt
+
+<<<
+E bye.txt
+> add bye.txt
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+bye.txt
+wug.txt
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+
+=== Untracked Files ===
+hello.txt
+
+<<<
+> commit first
+<<<
+> status
+=== Branches ===
+*master
+
+=== Staged Files ===
+
+=== Removed Files ===
+
+=== Modfications Not Staged For Commit ===
+
+=== Untracked Files ===
+hello.txt
+
+<<<
