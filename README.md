@@ -1,4 +1,6 @@
-# Gitlet Design Doc 2
+# Gitlet Design Doc 
+
+What is gitlet? Its a mini version control system based off of git. For more functionality information check out https://inst.eecs.berkeley.edu/~cs61b/sp20/materials/proj/proj3/index.html
 
 # Classes and Data Structures
 
